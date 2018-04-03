@@ -16,8 +16,12 @@ Python 3.5.3 or later is required.
 Setup Python and `pip`
 
 ```bash
+$ sudo add-apt-repository -y ppa:deadsnakes/ppa
 $ sudo apt-get update
-$ sudo apt-get install python3-dev python3-pip
+$ sudo apt-get install -y python3.6-venv python3.6-dev python3-pip
+$ sudo pip install --upgrade pip
+$ sudo pip3 --version
+
 ```
 
 Now that you installed python, there are two ways to install Home Assistant:
